@@ -115,7 +115,9 @@ crime_dataset$state_abbr[is.na(crime_dataset$state_abbr)] <- "USA"
 ```
 
 ```{r}
-
+write.table (crime_dataset, file = "/Users/asus/Documents/finalp/datasets/MODIFIED/crime_dataset.csv", row.names = F, sep = ",")
+write.table (crime_dataset_edu, file = "/Users/asus/Documents/finalp/datasets/MODIFIED/crime_dataset_edu.csv", row.names = F, sep = ",")
+write.table (crimes, file = "/Users/asus/Documents/finalp/datasets/MODIFIED/crimes.csv", row.names = F, sep = ",")
+write.table (yearly_income, file = "/Users/asus/Documents/finalp/datasets/MODIFIED/yearly_income.csv", row.names = F, sep = ",")
+write.table (yearly_unemployment, file = "/Users/asus/Documents/finalp/datasets/MODIFIED/yearly_unemployment.csv", row.names = F, sep = ",")
 ```
-
-
