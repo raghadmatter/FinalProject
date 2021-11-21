@@ -1,0 +1,34 @@
+---
+title: "Findings"
+author: "Jana Nassir"
+date: "11/21/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library("tidyverse")
+```
+
+Read Data sets
+```{r}
+income <- read_csv("~/finalp/datasets/income.csv")
+crime <- read_csv("~/finalp/datasets/crime.csv")
+edu_attainment <- read_csv("~/finalp/datasets/edu_attainment.csv")
+education_finance <- read_csv("~/finalp/datasets/education_finance.csv")
+unemployment <- read_csv("~/finalp/datasets/unemployment.csv")
+crime_dataset <- read_csv("~/finalp/datasets/MODIFIED/crime_dataset.csv")
+crime_dataset_edu <- read_csv("~/finalp/datasets/MODIFIED/crime_dataset_edu.csv")
+crimes <- read_csv("~/finalp/datasets/MODIFIED/crimes.csv")
+edu_finance <- read_csv("~/finalp/datasets/MODIFIED/edu_finance.csv")
+yearly_income <- read_csv("~/finalp/datasets/MODIFIED/yearly_income.csv")
+yearly_unemployment <- read_csv("~/finalp/datasets/MODIFIED/yearly_unemployment.csv")
+```
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
